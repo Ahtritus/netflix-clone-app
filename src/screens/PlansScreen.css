@@ -1,0 +1,45 @@
+.plansScreen__plan {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+  font-size: 1.125rem;
+  opacity: 0.8;
+  border-bottom: 1px solid #282c2d;
+}
+
+.plansScreen__plan:hover {
+  opacity: 1;
+}
+
+.plansScreen__plan > button {
+  background-color: #e50914;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 14px 20px;
+  font-size: 1.125rem;
+  margin-top: 8%;
+  text-align: center;
+  max-height: 60px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 750px) {
+  .plansScreen__plan > button {
+    margin-top: 20%;
+    padding: 10px 10px;
+  }
+
+  .plansScreen__plan {
+    padding: 0px 5px;
+  }
+}
+
+.plansScreen__info {
+  font-size: 1.2rem;
+}
+
+.plansScreen__plan--disabled > button {
+  background-color: rgb(167, 157, 157);
+}
