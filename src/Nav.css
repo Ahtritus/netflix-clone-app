@@ -3,12 +3,13 @@
   top: 0;
   padding: 10px;
   width: 100%;
-  height: 60px;
+  height: 40px;
   z-index: 2;
 }
 
 .nav__black {
   background-color: rgb(20, 20, 20);
+  opacity: 0.95;
 }
 
 .nav__contents {
@@ -18,19 +19,21 @@
 
 .nav__logo {
   position: fixed;
-  top: 0;
+  top: 10;
   left: 0;
   width: 150px;
   object-fit: contain;
   padding-left: 20px;
   cursor: pointer;
+  height: 40px;
 }
 
 .nav__avatar {
   position: fixed;
-  top: 15px;
+  top: 10px;
   right: 20px;
   width: 50px;
   object-fit: contain;
   cursor: pointer;
+  height: 40px;
 }

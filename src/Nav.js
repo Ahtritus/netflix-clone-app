@@ -26,7 +26,7 @@ function Nav() {
                 <img
                     onClick={() => history.push("/")}
                     className="nav__logo"
-                    src='http://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png'
+                    src='https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png'
                     alt=""
                 />
 
