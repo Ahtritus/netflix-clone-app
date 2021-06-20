@@ -76,5 +76,3 @@ function Row({title, fetchUrl, isLargeRow = false}) {
 }
 
 export default Row;
-
-//https://image.tmdb.org/t/p/original/rEm96ib0sPiZBADNKBHKBv5bve9.jpgs

@@ -1,4 +1,4 @@
-const API_KEY = "3074c42af940fd86278523b116782eef";
+import API_KEY from "./credentials";
 
 const requests = {
     fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
@@ -13,8 +13,3 @@ const requests = {
 
 export default requests;
 
-/*
-
-https://api.themoviedb.org/3/trending/all/week?api_key=3074c42af940fd86278523b116782eef&language=en-US
-
-*/
