@@ -1,4 +1,6 @@
-## Website: https://netflix-clone-build-23903.web.app/
+## Website on netlify: https://compassionate-joliot-88888b.netlify.app/
+
+## Website on firebase (might show security error in Chrome): https://netflix-clone-build-23903.web.app/
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
